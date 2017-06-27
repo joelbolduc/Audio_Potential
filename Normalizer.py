@@ -21,7 +21,7 @@ def intensity(s):
         
         
 
-def normalize(file,noise_threshold):
+def normalize(file,noise_threshold=-80):
 #Normalizes the total sound wave so that amplitude is equal throughout the sound wave.
     name=file[:len(file)-4]
     noise_threshold=pow(10.0,(-6+noise_threshold)/20.0)
