@@ -1,2 +1,3 @@
 # Audio_Potential
-Normalizes volume across a .wav file to ensure maximum volume with little to no distortion
+Amplifies soft music files to their full audio potential by normalizing the amplitude of the sound wave over the signal with minimal distortion and/or clipping.
+Only wav files are currently supported.
